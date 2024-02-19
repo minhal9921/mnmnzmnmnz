@@ -6,31 +6,14 @@
         "product_header": {
           "type": "product_header",
           "settings": {
-            "show_divider": true,
+            "show_divider": false,
             "show_vendor": true,
-            "show_sku": true,
+            "show_sku": false,
             "show_discount": true,
             "discount_format": "percent_off",
             "show_product_rating": false,
             "show_sale_badge": true,
             "show_custom_badges": true
-          }
-        },
-        "product_callouts_mini": {
-          "type": "product_callouts_mini",
-          "settings": {
-            "icon_1": "moving-truck",
-            "text_1": "Fast Shipping",
-            "icon_2": "padlock",
-            "text_2": "Secure payment",
-            "icon_3": "chat",
-            "text_3": "",
-            "icon_4": "none",
-            "text_4": "",
-            "icon_5": "none",
-            "text_5": "",
-            "icon_6": "none",
-            "text_6": ""
           }
         },
         "variant_picker": {
@@ -46,16 +29,6 @@
             "chip_layout": "3col"
           }
         },
-        "inventory_counter": {
-          "type": "inventory-counter",
-          "settings": {
-            "label": "Availability",
-            "inventory_max": "100",
-            "low_inventory_threshold": "40",
-            "show_status_bar": true,
-            "show_untracked_quantity": false
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -65,10 +38,10 @@
         "request_a_quote_hide_price_b2b_easy_quote_sealapps_DHcWzq": {
           "type": "shopify:\/\/apps\/request-a-quote-hide-price-b2b\/blocks\/easy-quote-sealapps\/414e3c56-ba13-45bb-9f54-87077e6b11d9",
           "settings": {
-            "eq_quote_button_color": "#FFFFFF",
+            "eq_quote_button_color": "#ffffff",
             "eq_quote_button_color_hover": "#333333",
             "eq_quote_button_background": "#333333",
-            "eq_quote_button_background_hover": "#FFFFFF",
+            "eq_quote_button_background_hover": "#ffffff",
             "eq_quote_border_color": "#333333",
             "eq_quote_border_color_hover": "#333333",
             "eq_quote_border_width": 2,
@@ -193,9 +166,7 @@
       },
       "block_order": [
         "product_header",
-        "product_callouts_mini",
         "variant_picker",
-        "inventory_counter",
         "quantity_selector",
         "request_a_quote_hide_price_b2b_easy_quote_sealapps_DHcWzq",
         "buy_buttons",
